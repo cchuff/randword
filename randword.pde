@@ -63,12 +63,16 @@ void new_sentence() {
 void setup() {
   size(500, 400);
   background(255);
-  fill(#258FBF);
+//  #92B6CB
+
   new_sentence();
+
 }
 void draw() {
 }
+
 void mousePressed() {
+    fill(mouseX, mouseY, 205);
   new_sentence();
 }
 void keyPressed() {
